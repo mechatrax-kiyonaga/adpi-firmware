@@ -114,6 +114,10 @@
 				gpio-controller;
 				#gpio-cells = <2>;
 				reg = <0x27>;
+				gpio-line-names = "adpipro0_ch0",
+						  "adpipro0_ch1",
+						  "adpipro0_ch2",
+						  "adpipro0_ch3";
 			};
 		};
 	};
