@@ -7,7 +7,7 @@
 	fragment@0 {
 		target-path = "/";
 		__overlay__ {
-			refin1: fixedregulator_refin1 {
+			refin1: fixedregulator_5v0_refin1 {
 				compatible = "regulator-fixed";
 				regulator-name = "max6126-adpi1";
 				regulator-min-microvolt = <5000000>;
@@ -15,7 +15,7 @@
 				regulator-always-on;
 				regulator-boot-on;
 			};
-			vreg1: fixedregulator_vcc1 {
+			vreg1: fixedregulator_3v3_vcc1 {
 				compatible = "regulator-fixed";
 				regulator-name = "lp2992-adpi1";
 				regulator-min-microvolt = <3300000>;
