@@ -1,3 +1,9 @@
+adpi-firmware (3.0.1.1) bookworm; urgency=medium
+
+  * debian/postinst: Remove software version validation in configuration process
+
+ -- Yuta Kiyonaga <kiyonaga@mechatrax.com>  Thu, 18 Apr 2024 15:06:01 +0900
+
 adpi-firmware (3.0.1) bookworm; urgency=medium
 
   * Update device tree for Raspberry Pi 5
