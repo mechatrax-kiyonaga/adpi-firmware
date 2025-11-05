@@ -1,3 +1,12 @@
+adpi-firmware (3.0.1.2) trixie; urgency=medium
+
+  * Update for trixie
+  * debian/control
+    - Bump Standards-Version to 4.7.2
+    - Bump debhelper-compat to 13
+
+ -- Yuta Kiyonaga <kiyonaga@mechatrax.com>  Wed, 05 Nov 2025 16:53:23 +0900
+
 adpi-firmware (3.0.1.1) bookworm; urgency=medium
 
   * debian/postinst: Remove software version validation in configuration process
